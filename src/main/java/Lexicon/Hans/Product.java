@@ -1,7 +1,7 @@
 package Lexicon.Hans;
 
 public class Product {
-    String productID;
-    String name;
-    double price;
+    private String productID;
+    private String name;
+    private double price;
 }

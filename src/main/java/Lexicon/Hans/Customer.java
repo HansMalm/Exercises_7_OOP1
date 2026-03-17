@@ -1,7 +1,7 @@
 package Lexicon.Hans;
 
 public class Customer {
-    String customerID;
-    String name;
-    String email;
+    private String customerID;
+    private String name;
+    private String email;
 }
