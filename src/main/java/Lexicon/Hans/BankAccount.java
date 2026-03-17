@@ -22,6 +22,9 @@ public class BankAccount {
     }
 
     public void setAccountHolder(String accountHolder) {
+        if (accountHolder == null || accountHolder.isEmpty()) {
+            throw new IllegalArgumentException("AccountHolder can not be null or empty!");
+        }
         this.accountHolder = accountHolder;
     }
 
