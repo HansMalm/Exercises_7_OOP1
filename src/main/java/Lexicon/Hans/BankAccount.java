@@ -21,15 +21,15 @@ public class BankAccount {
         return balance;
     }
 
-    public void setBalance(int balance) {
-        this.balance = balance;
-    }
-
     public void setAccountHolder(String accountHolder) {
         if (accountHolder == null || accountHolder.isEmpty()) {
             throw new IllegalArgumentException("Accountholder can not be null or empty!");
         }
         this.accountHolder = accountHolder;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
     }
 
     //deposit and setBalance do the same job.
